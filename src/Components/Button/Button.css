@@ -1,0 +1,24 @@
+
+.btn{
+    padding: 5px 15px;
+    background-color: var(--theme--default--color);
+    text-transform: uppercase;
+    font-family: var(--font--text-family);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text--secondary-color);
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.read-more-btn{
+    margin-top: 30px;
+    font-size: 1rem;
+    text-transform:capitalize;
+    color: var( --text--primary--color);
+    padding: 10px 30px;
+}
+
+.serviceBookBtn{
+    border-radius: 5px;
+}
