@@ -82,28 +82,37 @@
     z-index: 1;
 }
 .service-wrapper{
-    padding: 50px 0px;
+    padding: 50px  0px 100px;
     text-align: center;
     position: relative;
     z-index: 2;
 }
+
 .service-heading{
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    padding-bottom: 30px;
-}
-.service-heading .heading , .sub-heading{
-    color:var(--text--primary--color);
+    padding-bottom: 50px;
 }
 
 /***** our services Ends *****/
 
+/***** Pricing Starts *****/
+
 .pricingSection{
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: var(--theme--primary--color);
-    padding: 100px 0px;
+    position:relative;
+    padding: 80px 0px;
+}
+
+.back__design{
+    width: 100%;
+    height: 120px;
+    background-color: #feca7f;
+    border: 2px solid #4c4d4e;
+    position: absolute;
+    top: 40%;
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .pricingWrapper{
@@ -111,20 +120,161 @@
     justify-content: space-between;
 }
 
-/***** our-blogs Ends *****/
-.our-blogs{
-    width: 100%;
-    height: 500px;
-    background-color: azure;
+.priceing__headign{
+    text-align: center;
+    padding-bottom: 50px;
 }
+
+.prizing__menu{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.prizing__card{
+    width: 550px;
+    height: auto;
+    background-color:var(--theme--primary--color);
+    border: 2px solid #000;
+    position: relative;
+    z-index: 3;
+    padding: 20px 90px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pricing__title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    text-transform:uppercase;
+}
+
+.prizing_color{
+    color: #feb650;
+}
+
+.pricing__subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    padding-bottom: 40px;
+}
+
+.salun__picture {
+    position: absolute;
+    right: 180px;
+    bottom: 140px;
+}
+
+.salun__picture img {
+    width: 160px;
+    height: 130px;
+}
+
+.pricing__item {
+    background-image: url(../../Assats/images/Pricing/ullist.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 20px 0px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.pricing__design{
+    padding: 10px 0px;
+}
+
+.prizing__top__design {
+    width: 180px;
+    height: 80px;
+    background-color: #feb650;
+    position: absolute;
+    top: 0;
+    left: -51px;
+    clip-path: polygon(54% 0%, 80% 0, 28% 100%, 28% 52%);
+}
+
+.prizing__bottom__design {
+    width: 180px;
+    height: 80px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    right: -51px;
+    clip-path: polygon(54% 0%, 80% 0, 28% 100%, 28% 52%);
+    transform: rotate(-180deg);
+}
+
+/***** Pricing Ends *****/
+
+
+/***** gallary Starts *****/
+
+.gallary{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-image: url(../../Assats/images/gallery/gallerybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallary__wrapper{
+    padding: 50px 0px;
+}
+
+.galary__heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.galary__slider{
+    position: relative;
+    z-index: 5;
+}
+
+/***** gallary Ends *****/
+
+
+/***** Blogs Ends *****/
+
+.blogs{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+
 .blogs-wrapper{
     display: grid;
     grid-template-columns: 3, 1fr;
     grid-gap: 5px;
 }
-.blog{
-    width: 33.3px;
-    height: 400px;
-    background-color: #000;
+.blogs__headign{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.blogs__show{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 /***** our services Ends *****/
+
+.location{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../Assats/images/locations/locationBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:50%
+}
+.location__wrapper{
+    padding: 50px 0px;
+}
+.location-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}

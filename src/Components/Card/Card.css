@@ -101,3 +101,36 @@
     margin-top: 20px;
     padding: 8px 30px;
 }
+
+.gallary__card{
+    width: 260px;
+    height: 400px;
+}
+.gallary__card img{
+    width: 255px;
+    height: 400px;
+}
+
+
+.blog__card{
+    width: 300px;
+    height: 600px;
+}
+.blog_img{
+    width: 300px;
+    height: 600px;
+}
+.blog__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    color: var(--text--default--color);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.blog__subtitle{
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    padding-bottom: 10px;
+}

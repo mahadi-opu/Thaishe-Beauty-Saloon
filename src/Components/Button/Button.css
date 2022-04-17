@@ -22,3 +22,12 @@
 .serviceBookBtn{
     border-radius: 5px;
 }
+
+.blog__btn{
+    padding: 8px 35px;
+    text-transform: capitalize;
+    color: var(--text--primary--color);
+    -webkit-box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.75);
+}

@@ -10,8 +10,9 @@ const ServiceSlider = () => {
   const settings = {
     infinite: true,
     lazyLoad: true,
+    autoplay:true,
     dots: true,
-    arrows: true,
+    arrows: false,
     speed: 300,
     slidesToShow: 3,
     centerMode: true,

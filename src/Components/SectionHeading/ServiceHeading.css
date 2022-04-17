@@ -1,0 +1,27 @@
+
+
+.section__heading{
+    position: relative;
+    z-index: 2;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-family: var(--font--heading-family);
+    color: var(--text--secondary-color);
+    margin-bottom: 5px;
+}
+.colorheadign{
+    color: var(--text--default--color);
+}
+.sub-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    color: var(--text--secondary-color);
+}
+
+.text-white{
+    color: var(--text--primary--color);
+}

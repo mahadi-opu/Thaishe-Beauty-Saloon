@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionHeading from '../../Components/SectionHeading/SectionHeading';
 import ServiceSlider from '../../Components/SlickSlider/ServiceSlider';
 
 
@@ -10,8 +11,13 @@ const Service = () => {
                 <div className="service-wrapper">
                     
                     <div className='service-heading'>
-                        <h1 className='heading'> <span className='color-text'> our </span> services </h1>
-                        <p className='sub-heading'>Welcome to Thai She Hair Dressers.</p>
+                        <SectionHeading 
+                            headingLeft="Our"
+                            headingRight=" Service "
+                            subheading="Welcome to Thai She Hair Dressers."
+                            colorRight="text-white"
+                            colorSubHeading="text-white"
+                        />
                     </div>
 
                     <div className='service-slider'>
