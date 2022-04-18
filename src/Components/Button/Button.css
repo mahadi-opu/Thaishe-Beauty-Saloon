@@ -31,3 +31,15 @@
     -moz-box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.75);
     box-shadow: 10px 13px 5px -3px rgba(0,0,0,0.75);
 }
+.subs_btn{
+    padding: 10px 65px;
+    background-color: #cdcbcb;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.subs_btn:hover{
+    background-color: var(--text--default--color);
+    transition: 3s;
+}

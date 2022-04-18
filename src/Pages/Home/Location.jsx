@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import SectionHeading from '../../Components/SectionHeading/SectionHeading';
+import LocationCard from '../../Components/Card/LocationCard';
 
 const Location = () => {
     return (
@@ -11,13 +12,12 @@ const Location = () => {
                     <div className='location-heading'>
                         <SectionHeading 
                             headingLeft="Our"
-                            headingRight=" Service "
-                            subheading="Welcome to Thai She Hair Dressers."
-                            
+                            headingRight=" Location "
+                            subheading="Here is our location to get us firstly."
                         />
                     </div>
                     <div className='contact__card'>
-                        
+                        <LocationCard />
                     </div>
                 </div>
             </div>

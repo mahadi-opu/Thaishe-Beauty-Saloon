@@ -134,3 +134,110 @@
     font-family: var(--font--text-family);
     padding-bottom: 10px;
 }
+.location__card{
+    width: 420px;
+    height: auto;
+    background-color: #000000;
+    opacity: 0.9;
+    padding: 15px;
+}
+.location__card_wrapper{
+    border: 1px solid #ffff;
+    padding: 50px;
+    color: aliceblue;
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 3px;
+}
+.location_text{
+    padding-bottom: 30px;
+}
+.contact svg{
+    font-size: 25px;
+    font-weight: bold;
+    color: #d69d2b;
+}
+.contact p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: var(--font--text-family);
+}
+
+/***** prizing__card Start *****/
+.prizing__menu{
+    display: flex;
+    justify-content: center;
+   
+}
+.prizing__card{
+    width: 550px;
+    height: auto;
+    background-color:var(--theme--primary--color);
+    border: 2px solid #000;
+    position: relative;
+    z-index: 3;
+    padding: 20px 90px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pricing__title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    text-transform:uppercase;
+}
+.prizing_color{
+    color: #feb650;
+}
+.pricing__subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    padding-bottom: 40px;
+}
+.salun__picture {
+    position: absolute;
+    right: 180px;
+    bottom: 140px;
+}
+.salun__picture img {
+    width: 160px;
+    height: 130px;
+}
+.pricing__item {
+    background-image: url(../../Assats/images/Pricing/ullist.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 20px 0px;
+    margin: 0;
+    font-weight: 600;
+}
+.pricing__design{
+    padding: 10px 0px;
+}
+.prizing__top__design {
+    width: 180px;
+    height: 80px;
+    background-color: #feb650;
+    position: absolute;
+    top: 0;
+    left: -51px;
+    clip-path: polygon(54% 0%, 80% 0, 28% 100%, 28% 52%);
+}
+.prizing__bottom__design {
+    width: 180px;
+    height: 80px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    right: -51px;
+    clip-path: polygon(54% 0%, 80% 0, 28% 100%, 28% 52%);
+    transform: rotate(-180deg);
+}
+
+/***** prizing__card Ends *****/
