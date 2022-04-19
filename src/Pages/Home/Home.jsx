@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Home/Home.css';
+import '../Home/responsive.css';
 import Hero from '../Home/Hero'
 import About from '../Home/About'
 import Service from '../Home/Service'

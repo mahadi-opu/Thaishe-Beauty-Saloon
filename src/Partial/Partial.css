@@ -1,5 +1,4 @@
  /****** Header Start  ******/
-
 .header{
     width: 100%;
     height: 112px;
@@ -7,14 +6,15 @@
     display: flex;
     align-items: center;
     position: relative;
-
 }
-.wrapper{
+
+.header__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
+
 .logo img{
     width: 200px;
     height: 80px;
@@ -42,7 +42,9 @@ nav ul li a:hover{
     padding-bottom: 42px;
 }
 .mobile-menu{
-    display: none;
+    /* display: none; */
+    position: relative;
+    z-index: 50000;
 }
 
 footer{
@@ -114,10 +116,6 @@ footer{
     display: flex;
     gap: 10px;
 }
-.social__item{
-   
-}
-
 .social__item a svg{
     color: var(--text--primary--color);
     font-size: 30px;
@@ -127,6 +125,8 @@ footer{
     color: var(--text--default--color);
 }
 
+
+
  /****** Header End  ******/
 
 @media screen and (max-width: 480px) {
@@ -135,7 +135,10 @@ footer{
         display: none;
     }
     /******* Header Ends *******/
-
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
     /****** mobile-menu Start ******/
     .mobile-menu{
         display: block;
@@ -153,12 +156,13 @@ footer{
         position: absolute;
         min-width: 80%;
         margin-top: 60px;
-        background-color: var(--theme--default--color)
+        background-color: var(--theme--default--color);
     }
     .mobile-menu-link li{
         max-width: 100%;
         margin-bottom: 2px;
         padding: 10px;
+        
         background-color: aliceblue;
     }
     .mobile-menu-link li:hover{

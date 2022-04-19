@@ -10,6 +10,7 @@ const About = () => {
         <div className='about-section'>
             <div className='container'>
                 <div className='about-wrapper'>
+                    
                     <div className='about-content'>
                         <div className='about-heading'>
                             <SectionHeading
@@ -25,11 +26,10 @@ const About = () => {
                         <ReadMoreBtn />
                     </div>
 
-                    <div className='about-images'>
-                            <AboutCard
-                                cardimg={aboutimg}
-                            />
+                    <div className='about__images'>
+                        <AboutCard/>
                     </div>
+
                 </div>
             </div>
         </div>

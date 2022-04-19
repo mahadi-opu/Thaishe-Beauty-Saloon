@@ -25,3 +25,17 @@
 .text-white{
     color: var(--text--primary--color);
 }
+
+@media screen and (max-width: 480px) {
+    .heading{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform:uppercase;
+        margin-bottom: 5px;
+    }
+    .sub-heading{
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+}

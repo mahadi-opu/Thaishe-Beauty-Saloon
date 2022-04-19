@@ -6,7 +6,7 @@ const Hero = () => {
         <div className='hero-section'>
             <div className='hero-overly'></div>
             <div className='container'>
-                <div className='wrapper'>
+                <div className='hero__wrapper'>
                     <div className='hero-content'>
                         <h1>Welcome to <span> our shop </span></h1>
                         <p>Great skin doesn't happen by chance, it happens by appointment.</p>

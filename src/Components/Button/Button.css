@@ -10,7 +10,6 @@
     cursor: pointer;
     margin: 10px 5px;
 }
-
 .read-more-btn{
     margin-top: 30px;
     font-size: 1rem;
@@ -18,7 +17,6 @@
     color: var( --text--primary--color);
     padding: 10px 30px;
 }
-
 .serviceBookBtn{
     border-radius: 5px;
 }
@@ -42,4 +40,21 @@
 .subs_btn:hover{
     background-color: var(--text--default--color);
     transition: 3s;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .read-more-btn{
+        margin-top: 20px;
+        font-size: 0.9rem;
+        text-transform:capitalize;
+        color: var( --text--primary--color);
+        padding: 5px 20px;
+    }
+
+
 }

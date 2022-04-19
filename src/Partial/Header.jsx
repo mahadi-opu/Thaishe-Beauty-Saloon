@@ -14,10 +14,12 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='container'>
-                <div className="wrapper">
+                <div className="header__wrapper">
+
                     <div className="logo">
                         <a href="#"> <img src={logo} alt="/" /></a>
                     </div>
+
                     <nav>
                         <ul>
                             <li><a href=""> Home </a></li>
@@ -29,27 +31,35 @@ const Header = () => {
                             <li><a href=""> Contact us  </a></li>
                         </ul>
                     </nav>
+
                     <div className="booking-btn">
                         <BookNowBtn />
                     </div>
+
                     <div className='mobile-menu'>
-                        <div onClick={handleClick} className='mobile-icon'>
+                        <div className='mobile-icon' onClick={handleClick} >
                             {!nav ? <BiMenu /> : <AiOutlineClose /> }
                         </div>
-                        { nav ?
-                            <ul className='mobile-menu-link'>
-                                <li><a href=""> Home </a></li>
-                                <li><a href=""> About us </a></li>
-                                <li><a href=""> our services </a></li>
-                                <li><a href=""> Pricing </a></li>
-                                <li><a href=""> gallary  </a></li>
-                                <li><a href=""> Blog  </a></li>
-                                <li><a href=""> Contact us  </a></li>
-                            </ul>
+
+                        { 
+                        
+                            nav ?
+
+                                <ul className='mobile-menu-link'>
+                                    <li><a href=""> Home </a></li>
+                                    <li><a href=""> About us </a></li>
+                                    <li><a href=""> our services </a></li>
+                                    <li><a href=""> Pricing </a></li>
+                                    <li><a href=""> gallary  </a></li>
+                                    <li><a href=""> Blog  </a></li>
+                                    <li><a href=""> Contact us  </a></li>
+                                </ul>
                             :
-                            null
+                                null
                         }
+
                     </div>
+
                 </div>
             </div>
         </div>

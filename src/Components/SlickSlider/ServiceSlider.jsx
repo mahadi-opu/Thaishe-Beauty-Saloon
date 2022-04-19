@@ -49,7 +49,6 @@ const ServiceSlider = () => {
 
   return (
     <div>
-        
         <Slider {...settings}>
           {sliders.map((slide, index)=>(
             <div key={index} className={index === imageIndex ? "slide activeSlide" : "slide"}>

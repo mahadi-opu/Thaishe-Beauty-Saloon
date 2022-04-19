@@ -1,0 +1,82 @@
+
+@media screen and (max-width: 480px) {
+
+/**** Hero Start ****/
+.hero-section{
+    width: 100%;
+    height: auto;
+    background: url(../../Assats/images/hero/slider-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-position:center;
+}
+.hero__wrapper{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+.hero-content h1{
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+}
+.hero-content p{
+    font-size: 0.8rem;
+    max-width: 100%;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+/**** About Section ****/
+
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px  0px 50px;
+}
+.about-content{
+  padding-bottom: 30px;
+}
+.about-content > p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: var(--font--text-family);
+    color: #4b4a4a;
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+/**** Service Section ****/
+.service-wrapper{
+    padding: 50px  0px 50px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.service-heading {
+    padding-bottom: 20px;
+}
+
+/**** Pricing Section ****/
+.pricingSection {
+    padding: 30px 0px;
+}
+.pricing__Wrapper{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .priceing__headign{
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+}
