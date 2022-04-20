@@ -7,17 +7,17 @@ import salunImg from '../../Assats/images/Pricing/salun-machine.png';
 
 const PricingCard = () => {
     return (
-       
-        <div className='prizing__menu'>
-            <div className="prizing__card">
-                <div className='prizing__top__design'> </div>
+        <div className="pricing__card">
+            <div className='pricing__top__design'> </div>
 
-                <div className='prizing__wrapper'>
+            <div className='pricing__wrapper'>
+                <div className='pricing__details'>
                     <h2 className='pricing__title'> <span className='prizing_color'> Prizing </span> Menu</h2>
                     <p className='pricing__subtitle'> look at some what you want </p>
                     <div className='salun__picture'>
                         <img src={salunImg} alt="" />
                     </div>
+
                     <div className='pricing__list'>
                         
                         <ul className='pricing__items'>
@@ -34,11 +34,10 @@ const PricingCard = () => {
                         <img src={pricedsn} alt="" />
                     </div>
                 </div>
-                
-                <div className='prizing__bottom__design'> </div>
             </div>
+            
+            <div className='pricing__bottom__design'> </div>
         </div>
-
     );
 };
 

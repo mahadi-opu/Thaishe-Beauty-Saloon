@@ -32,16 +32,19 @@
 
 /**** About Section ****/
 
-.about-wrapper{
+.about__wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px  0px 50px;
 }
-.about-content{
-  padding-bottom: 30px;
+.about__content {
+  padding-bottom: 50px;
 }
-.about-content > p{
+.about__images{
+  padding-bottom: 50px;
+}
+.about__content > p{
     font-size: 0.8rem;
     font-weight: 300;
     font-family: var(--font--text-family);
@@ -69,14 +72,18 @@
     display: flex;
     flex-direction: column;
     
- }
- .priceing__headign{
-    padding-bottom: 40px;
+}
+.pricing_left {
+    margin: 0px 0px 100px 10px;
 }
 
-
-
-
+/**** Blog Section ****/
+.blogs__show{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+/**** Footer Section ****/
 
 
 }

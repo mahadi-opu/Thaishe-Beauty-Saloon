@@ -27,9 +27,9 @@ const Pricing = () => {
 
                     <div className='pricing_left'>  
                         <AboutCard
-                                cardimg={aboutimg}
+                                cardimg={priceimg}
                             />
-                        </div>
+                    </div>
 
                     <div className='pricing_right'>
                         <PricingCard/>

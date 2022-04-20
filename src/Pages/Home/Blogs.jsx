@@ -12,7 +12,7 @@ const Blogs = () => {
         <section className='blogs'>
             <div className='container'>
                 <div className="blogs-wrapper">
-                    <div className='blogs__headign'>
+                    <div className='blogs__heading'>
                         <SectionHeading 
                             headingLeft=" Our"
                             headingRight=" Blogs "

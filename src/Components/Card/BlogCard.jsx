@@ -20,7 +20,6 @@ const {blogImg} = props;
 
                 <BlogButton />
 
-            
             </div>
         </div>
     );

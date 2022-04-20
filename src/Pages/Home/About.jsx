@@ -9,10 +9,10 @@ const About = () => {
     return (
         <div className='about-section'>
             <div className='container'>
-                <div className='about-wrapper'>
+                <div className='about__wrapper'>
                     
-                    <div className='about-content'>
-                        <div className='about-heading'>
+                    <div className='about__content'>
+                        <div className='about__heading'>
                             <SectionHeading
                                headingLeft="About Us"
                                headingRight=" Story "
@@ -27,7 +27,9 @@ const About = () => {
                     </div>
 
                     <div className='about__images'>
-                        <AboutCard/>
+                        <AboutCard
+                            cardimg={aboutimg}
+                        />
                     </div>
 
                 </div>

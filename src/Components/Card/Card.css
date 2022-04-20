@@ -1,98 +1,106 @@
 /***** about-card Starts *****/
 .about-card_wrapper{
-    width: 100%;
-    /* position: relative; */
+    width: 280px;
+    height: 400px;
+    position: relative;
 }
 .about_before_bg{
+    left: -20px;
+    top: -20px; 
+    position: absolute; 
+    width: 280px;
+    height: 400px;
+    z-index: 1; 
     background-color:var(--theme--default--color);
-    /* left: -20px;
-    top: -20px; */
-    /* position: absolute; */
-    width: 300px;
-    height: 440px;
-    z-index: 1;
 }
 .about_card_img{
-    width: 300px;
-    height: 440px;
-    position: relative;
+    width: 280px;
+    height: 400px;
+    position: absolute;
     z-index: 2;
-}
+    text-align: center;
+} 
 .about_card_img img {
-    max-width: 100%;
-    max-height: 100%;
-}
+    /* max-width: 100%;
+    max-height: 100%; */
+    width: 280px;
+    height: 400px;
+} 
 .about_after_bg{
+    right: -20px;
+    bottom: -20px;
+    position: absolute; 
+    width: 280px;
+    height: 400px;
+    z-index: 0; 
     background-color:var(--theme--secondary-color);
-    /* right: -20px;
-    bottom: -20px; */
-    /* position: absolute; */
-    width: 300px;
-    height: 440px;
-    z-index: 0;
 }
 
-/***** about-card Endss *****/
-
-
-.service-item{
+/***** Service-card *****/
+.service__card{
     background-color: var(--theme--primary--color);
-    width: 300px;
+    width: 100%;
     height: 450px;
-    z-index: 2;
-    position: relative;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: center;
     align-items: center; 
-}
-.item{
-    background-color: var(--theme--primary--color);
-    padding: 20px;
-    width: 280px;
-    height: 430px;
-    z-index: 2;
     position: relative;
-    border-radius: 5px;
-    border: 2px solid #d69d2b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.item img {
+.service_card_wrapper {
+    width: 90%;
+    height: 415px;
+    padding: 20px;
+    border: 2px solid #d69d2b;
+    border-radius: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--theme--primary--color);
+}
+.service_content{
+    
+}
+.service_img{
     width: 176px;
     height: 187px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
-.item h2{
+.service_img img{
+    width: 100%;
+    height: auto;
+}
+.service_details h2{
     font-size: 2rem;
     font-weight:600;
     font-family: var(--font--text-family);
     color:var(--text--secondary--color);
    
 }
-
-.color-text{
+.service_details .color-text{
     color: #d69d2b;
 }
-
-.item p{
+.service_details p{
     font-size: 1rem;
     font-weight: 500;
     font-family: var(--font--text-family);
     color: #4b4a4a;
 }
 
-.item button{
+.service_details button{
     color: var(--text--primary--color);
     margin-top: 20px;
     padding: 8px 30px;
 }
 
+
+/***** Gallary-card Starts *****/
 .gallary__card{
     width: 260px;
     height: 400px;
@@ -102,14 +110,16 @@
     height: 400px;
 }
 
+/***** Blog-card Starts *****/
 
 .blog__card{
     width: 300px;
     height: 600px;
 }
-.blog_img{
-    width: 300px;
-    height: 600px;
+
+.blog__img{
+    width: 100%;
+    height: auto;
 }
 .blog__title{
     font-size: 1.2rem;
@@ -157,24 +167,26 @@
 }
 
 /***** prizing__card Start *****/
-.prizing__menu{
-    display: flex;
-    justify-content: center;
-}
-.prizing__card{
-    width: 550px;
+
+.pricing__card{
+    width: 100%;
     height: auto;
-    background-color:var(--theme--primary--color);
-    border: 2px solid #000;
-    position: relative;
-    z-index: 3;
     padding: 20px 90px;
-    text-align: center;
+    z-index: 3;
     position: relative;
     border-radius: 5px;
+    border: 2px solid #000;
+    background-color:var(--theme--primary--color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pricing__wrapper{
     display: flex;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+    position: relative;
+}
+.pricing__details{
+    text-align: center;
 }
 .pricing__title{
     font-size: 2.5rem;
@@ -193,8 +205,8 @@
 }
 .salun__picture {
     position: absolute;
-    right: 180px;
-    bottom: 140px;
+    right: 100px;
+    bottom: 100px;
 }
 .salun__picture img {
     width: 160px;
@@ -207,10 +219,17 @@
     margin: 0;
     font-weight: 600;
 }
-.pricing__design{
+.pricing__design {
+    width: 330px;
+    height: 60px;
     padding: 10px 0px;
+    margin: 0 auto;
 }
-.prizing__top__design {
+.pricing__design img{
+    width: 100%;
+    height: auto;
+}
+.pricing__top__design {
     width: 180px;
     height: 80px;
     background-color: #feb650;
@@ -219,7 +238,7 @@
     left: -51px;
     clip-path: polygon(54% 0%, 80% 0, 28% 100%, 28% 52%);
 }
-.prizing__bottom__design {
+.pricing__bottom__design {
     width: 180px;
     height: 80px;
     background-color: #000000;
@@ -238,6 +257,131 @@
     .prizing__card {
         width: 100%;
         padding: 80px 10px;
-       
     }
+    .about_card_img img {
+        width: 200px;
+        height: 320px;
+    }
+    .about-card_wrapper{
+        width: 200px;
+        height: 320px;
+        position: relative;
+    }
+    .about_before_bg{
+        left: -20px;
+        top: -20px; 
+        position: absolute; 
+        width: 200px;
+        height: 320px;
+        z-index: 1; 
+        background-color:var(--theme--default--color);
+    }
+    .about_card_img{
+        width: 200px;
+        height: 320px;
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+    } 
+    .about_after_bg{
+        right: -20px;
+        bottom: -20px;
+        position: absolute; 
+        width: 200px;
+        height: 320px;
+        z-index: 0; 
+        background-color:var(--theme--secondary-color);
+    }
+
+    /***** Service Card *****/
+    .service__card{
+        width: 100%;
+        max-height: 300px;
+    }
+    .service_card_wrapper{
+        width: 90%;
+        height: 90%;
+        padding: 20px;
+    }
+    .service_img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .service_details h2{
+        font-size: 1.2rem;
+        font-weight:600;
+        font-family: var(--font--text-family);
+        color:var(--text--secondary--color);
+    }
+    .service_details p{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .service_details button{
+        margin-top: 20px;
+        padding: 5px 15px;
+        font-size: 0.9rem;
+        text-transform:capitalize;
+        color: var( --text--primary--color);
+    }  
+    
+
+    /***** Blog Card *****/
+    .blog__card {
+        width: 219px;
+        height: 600px;
+    }
+    
+    /***** Blog Card *****/
+    .pricing__card {
+        width: 100%;
+        height: auto;
+        padding: 50px 10px;
+        z-index: 3;
+        position: relative;
+        border: 2px solid #000;
+        border-radius: 5px;
+        background-color: var(--theme--primary--color);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .pricing__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .pricing__details{
+        text-align: center;
+    }
+    .salun__picture {
+        position: absolute;
+        right: 0px;
+        bottom: 90px;
+    }
+    .pricing__title {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .pricing__subtitle {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .pricing__item {
+        background-image: none;
+        background-repeat: no-repeat;
+        padding: 0px 0px 20px 0px;
+        margin: 0;
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+    .pricing__design {
+        width: 170px;
+        height: 40px;
+        padding: 10px 0px;
+        margin: 0 auto;
+    }
+
+
 }

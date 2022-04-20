@@ -175,6 +175,15 @@ footer{
 
     /****** mobile-menu End ******/
 
+
+    .footer__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 20px;
+        color: var(--text--primary--color);
+        padding: 50px 0px;
+    }
+
     }
 
 @media screen and (max-width: 780px) {
