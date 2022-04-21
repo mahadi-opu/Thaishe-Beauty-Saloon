@@ -40,7 +40,7 @@
 .service__card{
     background-color: var(--theme--primary--color);
     width: 100%;
-    height: 450px;
+    height: 500px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@
 }
 .service_card_wrapper {
     width: 90%;
-    height: 415px;
+    height: 460px;
     padding: 20px;
     border: 2px solid #d69d2b;
     border-radius: 5px;
@@ -254,10 +254,6 @@
 
 @media screen and (max-width: 480px) {
 
-    .prizing__card {
-        width: 100%;
-        padding: 80px 10px;
-    }
     .about_card_img img {
         width: 200px;
         height: 320px;
@@ -296,16 +292,16 @@
     /***** Service Card *****/
     .service__card{
         width: 100%;
-        max-height: 300px;
+        height: 350px;
     }
     .service_card_wrapper{
         width: 90%;
-        height: 90%;
+        height: 320px;
         padding: 20px;
     }
     .service_img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 130px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -326,14 +322,26 @@
         text-transform:capitalize;
         color: var( --text--primary--color);
     }  
-    
-
     /***** Blog Card *****/
     .blog__card {
-        width: 219px;
-        height: 600px;
+        width: 100%;
+        height: auto;
+        margin: 10px 0px;
     }
-    
+    .blog__title {
+        font-size: 0.8rem;
+        font-weight: 500;
+        font-family: var(--font--text-family);
+        color: var(--text--default--color);
+        text-transform: capitalize;
+        padding: 10px 0px;
+    }
+    .blog__subtitle {
+        font-size: 0.7rem;
+        font-weight: 400;
+        font-family: var(--font--text-family);
+        padding-bottom: 0px; 
+    }
     /***** Blog Card *****/
     .pricing__card {
         width: 100%;
@@ -381,6 +389,48 @@
         height: 40px;
         padding: 10px 0px;
         margin: 0 auto;
+    }
+    .location {
+        width: 100%;
+        height: auto;
+        background-image: url(/static/media/locationBG.8dd200fa.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        top: 50%;
+    }
+    .location__card {
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+        opacity: 0.9;
+        padding: 15px;
+    }
+    .location__wrapper {
+        padding: 0px 0px 50px 0px;
+    }
+    .location__card_wrapper {
+        border: 1px solid #ffff;
+        padding: 10px;
+        color: aliceblue;
+    }
+    .contact p {
+        font-size: 0.7rem;
+        font-weight: 300;
+        font-family: var(--font--text-family);
+    }
+    .location_text {
+        padding-bottom: 10px;
+    }
+    .contact {
+        display: -ms-flexbox;
+        display: flex;
+        gap: 4px;
+        padding-bottom: 3px;
+    }
+    .contact svg {
+        font-size: 15px;
     }
 
 

@@ -67,6 +67,7 @@ footer{
     padding-bottom: 10px;
 }
 
+
 .footer_about_text{
     font-size: 0.8rem;
     font-weight: 400;
@@ -181,13 +182,81 @@ footer{
         grid-template-columns: repeat(1 , 1fr);
         gap: 20px;
         color: var(--text--primary--color);
-        padding: 50px 0px;
+        padding: 15px 0px;
+    }
+    .footer__logo{
+        width: 150px;
+        height: auto;
+    }
+    .footer_about_text {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    .footer_menu {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: left;
     }
 
     }
 
-@media screen and (max-width: 780px) {
-    nav{
+@media screen and  (min-width:480px) and (max-width: 780px){
+    
+     /******* Header Start *******/
+     nav, .booking-btn{
         display: none;
     }
+    /******* Header Ends *******/
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+    /****** mobile-menu Start ******/
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+    .mobile-icon svg {
+        color: var(--text--default--color);
+        font-size: 40px;
+        position: absolute;
+        right: 20%;
+        bottom: -20px;
+    }
+    .mobile-menu-link {
+        position: absolute;
+        min-width: 80%;
+        margin-top: 60px;
+        background-color: var(--theme--default--color);
+    }
+    .mobile-menu-link li{
+        max-width: 100%;
+        margin-bottom: 2px;
+        padding: 10px;
+        
+        background-color: aliceblue;
+    }
+    .mobile-menu-link li:hover{
+        background-color: var(--theme--default--color);
+        color:var(--text--primary--color);
+    }
+    .mobile-menu-link li a{
+       color: var(--text--secondary-color);
+    }
+    .footer__wrapper{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        color: var(--text--primary--color);
+        padding: 15px 0px;
+    }
+    .footer_menu {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: left;
+    }
+    
   }

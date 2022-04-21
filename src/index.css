@@ -52,27 +52,10 @@ button{
     border: none;
 }
 
-.section-heading{
-    position: relative;
-    z-index: 200;
-}
-.heading{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    font-family: var(--font--heading-family);
-    color:var(--text--secondary-color);
-    text-transform: uppercase;
-    font-weight: bold;
-}
 .color-text{
     color: var(--text--default--color);
 }
 
-.sub-heading{
-    font-size: 1rem;
-    font-weight: 500;
-    font-family: var(--font--text-family);
-}
 .container{
     width: 80%;
     height: auto;

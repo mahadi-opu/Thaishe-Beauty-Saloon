@@ -71,12 +71,13 @@
 .pricing__Wrapper{
     display: flex;
     flex-direction: column;
-    
-}
-.pricing_left {
-    margin: 0px 0px 100px 10px;
 }
 
+.pricing_left {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 100px 10px;
+}
 /**** Blog Section ****/
 .blogs__show{
     display: grid;
@@ -85,5 +86,23 @@
 }
 /**** Footer Section ****/
 
-
 }
+
+@media screen and (min-width:480px) and (max-width: 780px) {
+    /**** Blog Section ****/
+    .blogs__show{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+    }
+    .pricing__Wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_left {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 100px 10px;
+    }
+
+  }

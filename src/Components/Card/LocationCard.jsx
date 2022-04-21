@@ -17,12 +17,12 @@ const LocationCard = () => {
                     </div>
 
                     <div className='contact'> 
-                        <BiEnvelope/> 
+                        <span> <BiEnvelope/>  </span>
                         <p>thaishebeauty@gmailcom</p>
                     </div>
 
                     <div className='contact'> 
-                        <AiOutlineGlobal/>
+                        <span> <AiOutlineGlobal/> </span>
                         <p>www.thaishebeauty.com</p>
                     </div>
 
