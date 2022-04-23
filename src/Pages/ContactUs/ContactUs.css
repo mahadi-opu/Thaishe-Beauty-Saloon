@@ -1,0 +1,13 @@
+.contactUs{
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
+}
+.contactUs__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__heading{
+    text-align: center;
+    padding: 50px 0px;
+}

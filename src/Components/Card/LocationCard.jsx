@@ -3,7 +3,7 @@ import './Card.css';
 import { MdLocationOn } from 'react-icons/md';
 import { BiEnvelope } from 'react-icons/bi';
 import { AiOutlineGlobal } from 'react-icons/ai';
-
+import {GoogleApiWrapper} from 'google-maps-react';
 
 const LocationCard = () => {
     return (

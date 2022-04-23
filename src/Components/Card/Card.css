@@ -76,6 +76,9 @@
     width: 100%;
     height: auto;
 }
+.service_details{
+    text-align: center;
+}
 .service_details h2{
     font-size: 2rem;
     font-weight:600;
@@ -113,8 +116,9 @@
 /***** Blog-card Starts *****/
 
 .blog__card{
-    width: 300px;
+    width: 100%;
     height: 600px;
+    margin: 50px 0px;
 }
 
 .blog__img{

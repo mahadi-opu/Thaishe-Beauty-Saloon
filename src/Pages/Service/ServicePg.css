@@ -1,0 +1,10 @@
+.servicePg{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+.servicePg__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

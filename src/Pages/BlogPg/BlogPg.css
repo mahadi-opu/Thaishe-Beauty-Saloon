@@ -1,0 +1,21 @@
+.blogPg{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.blogPg_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.blog__left_sidebar{
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.blog__right_sidebar{
+    width: 30%;
+    height: auto;
+}
