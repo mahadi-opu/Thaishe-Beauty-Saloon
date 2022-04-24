@@ -1,7 +1,8 @@
 import React from 'react';
 import './ContactUs.css'
 import SectionHeading from '../../Components/SectionHeading/SectionHeading'
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import LocationCard from '../../Components/Card/LocationCard';
+
 
 const ContactUs = () => {
     return (
@@ -9,14 +10,7 @@ const ContactUs = () => {
             <div className='container'>
                 <div className="contactUs__wrapper">
                     <div className='constact_left'>
-                        <Map google={this.props.google} zoom={14}>
-                            <Marker onClick={this.onMarkerClick}
-                                    name={'Current location'} />
 
-                            <InfoWindow onClose={this.onInfoWindowClose}>
-                              
-                            </InfoWindow>
-                        </Map>
                     </div>
                     <div className='constact_right'>
                         <div className='contact__heading'>
@@ -27,7 +21,7 @@ const ContactUs = () => {
                             />
                         </div>
                         <div>
-                            
+                            <LocationCard/>
                         </div>
                     </div>
                 </div>
@@ -36,6 +30,4 @@ const ContactUs = () => {
     );
 };
 
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyBrsj7z8Q_lkCy6iopjiJm6awyPoY4k8Lw")
-  })(ContactUs)
+export default ContactUs;

@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 const BlogButton = () => {
     return (
-        <div>
+        <Fragment>
             <button className='btn blog__btn'> Read More </button>
-        </div>
+        </Fragment>
     );
 };
 

@@ -117,17 +117,20 @@
 
 .blog__card{
     width: 100%;
-    height: 600px;
-    margin: 50px 0px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2px;
 }
-
 .blog__img{
     width: 100%;
     height: auto;
 }
+.blog{
+    padding: 20px;
+}
 .blog__title{
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--font--text-family);
     color: var(--text--default--color);
     text-transform: uppercase;
@@ -135,10 +138,21 @@
 }
 .blog__subtitle{
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 500;
     font-family: var(--font--text-family);
     padding-bottom: 10px;
 }
+.blog_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog_date p{
+    font-size: 0.7rem;
+    font-weight: 500;
+    font-family: var(--font--text-family);
+}
+
 .location__card{
     width: 420px;
     height: auto;
@@ -255,6 +269,25 @@
 
 /***** prizing__card Ends *****/
 
+ /* PricelistCard */
+
+.pricelist__card{
+    width: 100%;
+    height: auto;
+}
+.order__list{
+    padding: 10px;
+    margin-left: 10px;
+}
+.order__list li{
+    color: #e2e2e2;
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: var(--font--text-family);
+}
+
 
 @media screen and (max-width: 480px) {
 
@@ -345,6 +378,11 @@
         font-weight: 400;
         font-family: var(--font--text-family);
         padding-bottom: 0px; 
+    }
+    .blog_date p {
+        font-size: 0.5rem;
+        font-weight: 500;
+        font-family: var(--font--text-family);
     }
     /***** Blog Card *****/
     .pricing__card {
@@ -437,5 +475,32 @@
         font-size: 15px;
     }
 
+    /* PricelistCard */
 
+    .order__list li{
+        color: #e2e2e2;
+        padding: 5px;
+        margin-left: 25px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family: var(--font--text-family);
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width: 780px) {
+     /* PricelistCard */
+    .order__list li{
+        color: #e2e2e2;
+        padding: 5px;
+        margin-left: 25px;
+        font-size: 0.7rem;
+        font-weight: 400;
+        font-family: var(--font--text-family);
+    }
+    .blog_date p {
+        font-size: 0.6rem;
+        font-weight: 500;
+        font-family: var(--font--text-family);
+    }
 }
