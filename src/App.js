@@ -4,16 +4,15 @@ import Header from '../src/Partial/Header';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Partial/Footer';
-import Blogpg from './Pages/BlogPg/BlogPg';
 
-
+import ContactUs from '../src/Pages/ContactUs/ContactUs'
 
 function App() {
 
   return (
     <div>
       <Header /> 
-        <Blogpg/>
+        <ContactUs/>
       <Footer/>
     </div>
   );

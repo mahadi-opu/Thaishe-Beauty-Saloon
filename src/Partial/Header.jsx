@@ -23,12 +23,13 @@ const Header = () => {
                     <nav>
                         <ul>
                             <li><a href=""> Home </a></li>
-                            <li><a href=""> About us </a></li>
-                            <li><a href=""> our services </a></li>
+                            <li><a href=""> About</a></li>
+                            <li><a href=""> services </a></li>
                             <li><a href=""> Pricing </a></li>
+                            <li><a href=""> MakeOver</a></li>
                             <li><a href=""> gallary  </a></li>
                             <li><a href=""> Blog  </a></li>
-                            <li><a href=""> Contact us  </a></li>
+                            <li><a href=""> Contact</a></li>
                         </ul>
                     </nav>
 

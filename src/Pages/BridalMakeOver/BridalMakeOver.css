@@ -1,0 +1,54 @@
+.bridalmakeover{
+    width: 100%;
+    height: auto;
+}
+.bridalmakeover__wrapper{
+    padding-bottom: 100px;
+}
+.bridalmakeover_heading{
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0 auto;
+    width: 80%;
+}
+.bridalmakeover_heading h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-family: var(--font--heading-family);
+    color: var(--text--secondary-color);
+    margin-bottom: 5px;
+}
+.bridalmakeover_heading span{
+    color: var(--text--default--color);
+}
+.bridalmakeover_heading p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--font--text-family);
+    color: var(--text--secondary-color);
+}
+.text-white{
+    color: var(--text--primary--color);
+}
+.bridal_Notes p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font--text-family);
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 480px) {
+    .bridalmakeover_heading h1{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform:uppercase;
+        margin-bottom: 5px;
+    }
+    .sub-heading{
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+}
+

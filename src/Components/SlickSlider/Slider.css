@@ -3,6 +3,11 @@
 }
 
 
+.bridal_slider__wrapper.slick-prev {
+    left: 0px !important;
+    z-index: 2;
+}
+
 
 @media screen and (max-width: 480px) {
 
