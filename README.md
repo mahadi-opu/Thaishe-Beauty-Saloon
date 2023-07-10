@@ -1,5 +1,4 @@
-
-![Thai She Saloon UI](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/7e2c8903-2bd8-4ebe-94f4-911c61081e28)
+![Thai She Saloon UI](https://github.com/mahadi-opu/Thaishe-Beauty-Saloon/assets/76869065/492608a0-6627-4f1a-afd7-d9267370cf18)
 
 
 <h2 align=""> Thaishe Beauty Saloon  </h2>
@@ -15,15 +14,14 @@ I created my personal portfolio frontend using React, Bootstrap etc.
 
 [Live Preview]( https://thaishebd.com/) &nbsp; &nbsp; [Code Link](https://github.com/mahadi-opu/thaishe-beauty-saloon)
 
-![Home](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/29614f68-613d-44b0-83d0-8b1ebb9a89ab)
+![Home](https://github.com/mahadi-opu/Thaishe-Beauty-Saloon/assets/76869065/907b0b53-a977-4363-b5d7-a9c437cf42ea)
 
 
-## Backend
-I customized a react admin dashboard called minimal and integrate backend functionaliy & rest api.
+## Contact & Gallary Page
 
-[Live Preview](#) &nbsp; &nbsp; [Code Link](#)
 
-![Admin](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/6c654d07-39b1-4ae2-a9ed-5a709fbd78af)
+![Admin](https://github.com/mahadi-opu/Thaishe-Beauty-Saloon/assets/76869065/b669a7eb-e28e-442b-b3f8-ffd74f0b757c)
+
 
 
 ## TODO
