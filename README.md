@@ -1,70 +1,36 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Thai She Saloon UI](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/7e2c8903-2bd8-4ebe-94f4-911c61081e28)
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 align=""> Thaishe Beauty Saloon  </h2>
+<p align="">Thaishe Beauty Saloon  is an online Beauty Service . The project will be developed using popular javaScript framework React & Laravel </p> 
 
-### `npm start`
+Please check branches for Latest **Frontend, Backend & Rest Api** Code.
+## Full Stack Beauty Saloon Service Website.
+This is Full Stack Beauty Saloon Service Website created using JavaScript,Rect PHP, Laravel, my SQL, Bootstrap etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend
+I created my personal portfolio frontend using React, Bootstrap etc.
 
-### `npm test`
+[Live Preview]( https://thaishebd.com/) &nbsp; &nbsp; [Code Link](https://github.com/mahadi-opu/thaishe-beauty-saloon)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/29614f68-613d-44b0-83d0-8b1ebb9a89ab)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Backend
+I customized a react admin dashboard called minimal and integrate backend functionaliy & rest api.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Live Preview](#) &nbsp; &nbsp; [Code Link](#)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Admin](https://github.com/mahadi-opu/thaishe-beauty-saloon/assets/76869065/6c654d07-39b1-4ae2-a9ed-5a709fbd78af)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## TODO
+- [x] Create Thaishe Beauty Saloon Frontend Using **Using React Js**
+- [x] Create Thaishe Beauty Saloon Backend **Using Laravel Php**
+- [x] Create Thaishe Beauty Saloon Api using **Using Rest API**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] Create Thaishe Beauty Saloon Frontend **Using NEXT JS**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Laravel is accessible, powerful, and provides tools required for large, robust applications.
