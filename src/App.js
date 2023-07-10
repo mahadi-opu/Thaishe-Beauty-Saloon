@@ -5,14 +5,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Partial/Footer';
 
-import ContactUs from '../src/Pages/ContactUs/ContactUs'
+import Home from '../src/Pages/Home/Home'
 
 function App() {
 
   return (
     <div>
       <Header /> 
-        <ContactUs/>
+        <Home/>
       <Footer/>
     </div>
   );
